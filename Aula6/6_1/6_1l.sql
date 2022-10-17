@@ -1,0 +1,1 @@
+SELECT type AS tipo_livro, pub_name AS editora, avg(titles.price) AS media_preço, sum(ytd_sales) AS Vendas FROM titles JOIN publishers ON titles.pub_id = publishers.pub_id GROUP BY type, pub_name HAVING avg(titles.price) IS NOT NULL

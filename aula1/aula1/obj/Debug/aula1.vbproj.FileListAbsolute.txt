@@ -1,0 +1,12 @@
+C:\Users\TiagoC\Desktop\bd\aula1\aula1\bin\Debug\aula1.exe.config
+C:\Users\TiagoC\Desktop\bd\aula1\aula1\bin\Debug\aula1.exe
+C:\Users\TiagoC\Desktop\bd\aula1\aula1\bin\Debug\aula1.pdb
+C:\Users\TiagoC\Desktop\bd\aula1\aula1\bin\Debug\aula1.xml
+C:\Users\TiagoC\Desktop\bd\aula1\aula1\obj\Debug\aula1.vbproj.AssemblyReference.cache
+C:\Users\TiagoC\Desktop\bd\aula1\aula1\obj\Debug\aula1.Form1.resources
+C:\Users\TiagoC\Desktop\bd\aula1\aula1\obj\Debug\aula1.Resources.resources
+C:\Users\TiagoC\Desktop\bd\aula1\aula1\obj\Debug\aula1.vbproj.GenerateResource.cache
+C:\Users\TiagoC\Desktop\bd\aula1\aula1\obj\Debug\aula1.vbproj.CoreCompileInputs.cache
+C:\Users\TiagoC\Desktop\bd\aula1\aula1\obj\Debug\aula1.exe
+C:\Users\TiagoC\Desktop\bd\aula1\aula1\obj\Debug\aula1.xml
+C:\Users\TiagoC\Desktop\bd\aula1\aula1\obj\Debug\aula1.pdb

@@ -1,0 +1,1 @@
+SELECT DISTINCT titles.title, au_fname+' '+au_lname AS name, ytd_sales,ytd_sales*price AS facturacao, ytd_sales*royalty*price/100 AS auths_revenue,ytd_sales*price*(100-royalty)/100 AS pub_revenue FROM titles, sales, titleauthor, authors WHERE titles.title_id = sales.title_id AND titles.title_id = titleauthor.title_id AND titleauthor.au_id = authors.au_id

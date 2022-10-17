@@ -1,0 +1,10 @@
+5.1
+a. π Fname,Lname,Ssn,Pno,Pname (employee ⨝ (Essn = Ssn) works_on ⨝ (Pno = Pnumber) project)
+b. employee ⨝ (Super_ssn=supervisor_ssn.Ssn) ρ supervisor_ssn (π Ssn (σ Fname='Carlos' ∧ Minit='D' ∧ Lname='Gomes' (employee)))
+c. γ Pno; sum(Hours) -> total (project ⨝ (Pnumber=Pno) works_on)
+d. π Fname,Hours (σ Dno=3 (employee ⨝ (Ssn=Essn) (σ Pno=1 ∧ Hours>20 (project ⨝ (Pnumber=Pno) works_on))))
+e. π Fname, Minit, Lname (σ Essn=null (employee ⟕ (Ssn=Essn) works_on))
+f. γ department.Dname; avg(employee.Salary) -> salarioMedF (σ employee.Sex = 'F' (department ⨝ (Dnumber = Dno) employee))
+g. σ dependentes ≥ 3 (γ Fname,Minit, Lname; count(Essn) -> dependentes (employee ⨝ (Ssn=Essn) dependent))
+h. π Fname,Minit,Lname,Ssn,Dno (σ Essn=null (dependent ⟖(Essn=Ssn) (employee ⨝ (Mgr_ssn=Ssn) department)))
+i. π Fname, Minit, Lname, Address (employee ⨝ (π Plocation (σ (Plocation='Aveiro') project ⨝ works_on)) ⨝ σ Dlocation≠'Aveiro' (dept_location ⨝(Dnumber=Dno) employee))

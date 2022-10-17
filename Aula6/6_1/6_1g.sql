@@ -1,0 +1,1 @@
+SELECT DISTINCT pub_name AS Editoras FROM publishers, titles WHERE type = 'Business'

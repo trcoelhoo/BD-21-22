@@ -1,0 +1,1 @@
+SELECT title, au_fname+' '+au_lname AS name, sum(ytd_sales) AS money_made FROM authors JOIN titleauthor ON authors.au_id = titleauthor.au_id JOIN titles ON titles.title_id = titleauthor.title_id JOIN sales ON titles.title_id = sales.title_id GROUP BY title, au_fname+' '+au_lname ORDER BY title, au_fname+' '+au_lname

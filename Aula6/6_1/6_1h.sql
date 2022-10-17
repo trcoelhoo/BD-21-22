@@ -1,0 +1,1 @@
+SELECT pub_name, sum(ytd_sales) AS Vendas FROM publishers, titles WHERE titles.pub_id = publishers.pub_id

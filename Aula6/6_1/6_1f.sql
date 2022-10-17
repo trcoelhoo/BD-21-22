@@ -1,0 +1,1 @@
+SELECT pub_id, pub_name FROM publishers WHERE pub_name LIKE '%Bo%'

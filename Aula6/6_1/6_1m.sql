@@ -1,0 +1,1 @@
+SELECT title, advance, Media FROM titles JOIN (SELECT titles.type, AVG(advance) AS Media FROM titles WHERE advance IS NOT NULL GROUP BY titles.type) AS group ON titles.type = group.type AND advance > 1.5*Media
